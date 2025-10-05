@@ -278,7 +278,7 @@ export function Navigation() {
                       className="block text-sm text-gray-600 hover:text-primary transition-colors py-1"
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      About Us
+                      Who We Are
                     </Link>
                     <Link
                       href="/company-profile"

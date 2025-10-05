@@ -407,7 +407,7 @@ export default function Component() {
                           <AnimatedCounter end={100} suffix="+" useCommas />
                         </span>
                         <span className="md:hidden">
-                          <AnimatedCounter end={1} suffix="+" useCommas />
+                          <AnimatedCounter end={100} suffix="+" useCommas />
                         </span>
                       </div>
                       <div className="text-xs sm:text-sm text-gray-600">Lives Impacted</div>
