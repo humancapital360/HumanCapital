@@ -28,14 +28,15 @@ export default function CompanyProfilePage() {
                 Company Profile
               </Badge>
 
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight animate-slide-in-left">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight leading-tight animate-slide-in-left">
+
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent whitespace-nowrap">
                   Discover Our Story
                 </span>
               </h1>
 
               <p
-                className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto animate-slide-in-left"
+                className="text-base sm:text-lg md:text-xl text-gray-600 max-w-xl mx-auto px-3 animate-slide-in-left"
                 style={{ animationDelay: "0.2s" }}
               >
                 Flip through our company profile to learn about our mission,

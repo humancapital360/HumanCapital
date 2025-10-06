@@ -3,26 +3,42 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .controls {
-  margin-bottom: 1rem;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
 }
 
+.controls button {
+  flex: 1 1 45%;
+  max-width: 140px;
+  font-size: 0.85rem;
+  padding: 0.5rem 0.7rem;
+}
+
+/* Container for images */
 .flipbook-container {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   width: 100%;
+  max-width: 100%;
 }
 
 .spread {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   transition: transform 0.3s ease;
 }
 
@@ -73,19 +89,26 @@
   transform: rotateY(-180deg);
 }
 
+/* Each image page */
 .page-spread img {
-  max-height: 80vh;
-  max-width: 45vw;
-  object-fit: contain;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  width: 100%;
+  height: auto;
+  max-width: 90vw;
   border-radius: 6px;
-  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
 
-/* Larger sizes on desktop */
+/* Larger screens */
 @media (min-width: 768px) {
-  .book {
-    width: 500px;
-    height: 700px;
+  .controls button {
+    flex: unset;
+    max-width: unset;
+    font-size: 1rem;
+  }
+
+  .page-spread img {
+    max-width: 45vw;
+    max-height: 80vh;
   }
 }
