@@ -31,9 +31,9 @@ const serviceDetails = [
       image: "/images/programs/HC360_NCC.jpg?height=400&width=800&text=NCC+Strategy",
     },
     {
-      title: "EcoLife Neighborhood Service Request (ENSR) System",
+      title: "EcoLife Neighborhood Response System (ENRS)",
       content:
-        "Our EcoLife Neighborhood Service Request (ENSR) is an innovative platform designed to enhance community engagement and streamline issue resolution. Unlike traditional, linear city communication models, ENSR enables residents to submit informal grievances, upload supporting photographs, and receive a response ticket. When necessary, members of our Environmental Service Technicians (i.e., junk, trash, pest, insects, and landscaping) are dispatched, and thereon an incident report is generated. By giving residents a voice, ENSR fosters empathy, validation, and a sense of partnership. These positive dynamics encourage individuals to take ownership of their community and strengthen their connection to the neighborhood.",
+        "Our EcoLife Neighborhood Response System (ENRS) is an innovative platform designed to enhance community engagement and streamline issue resolution. Unlike traditional, linear city communication models, ENRS enables residents to submit informal grievances, upload supporting photographs, and receive a response ticket. When necessary, members of our Environmental Service Technicians (i.e., junk, trash, pest, insects, and landscaping) are dispatched, and thereon an incident report is generated. By giving residents a voice, ENRS fosters empathy, validation, and a sense of partnership. These positive dynamics encourage individuals to take ownership of their community and strengthen their connection to the neighborhood.",
       image: "/images/programs/HC360_ENSR.jpg?height=400&width=800&text=NQR+System",
     },
     {

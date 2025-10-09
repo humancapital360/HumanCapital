@@ -17,6 +17,8 @@ export default function PartnersPage() {
       description:
         "Providing transactional income and profit generating opportunities to consumers.",
       logo: "/images/partners/cm360.png",
+      width: 80,
+      height: 80,
       url: "https://complexmarketing360.com",
     },
     {
@@ -24,6 +26,8 @@ export default function PartnersPage() {
       description:
         "Empowering and Protecting Every Child's Right to a Safe Online Experience, Unrestricted by Economic Boundaries. Human Capital 360 supports Protect Us Kids",
       logo: "/images/partners/puk.webp",
+      width: 80,
+      height: 80,
       url: "https://www.protectuskids.org/support-us",
     },
     {
@@ -31,20 +35,26 @@ export default function PartnersPage() {
       description:
         "Pioneering Global Cybersecurity Sustainability and Innovation",
       logo: "/images/partners/gcs.webp",
+      width: 80,
+      height: 80,
       url: "https://globalcyberadvisory.com/intro-to-cybersecurity-sustainabiity",
     },
     {
       name: "Ecolifebuilder",
       description:
         "Transforming urban transportation with our premium selection of electric scooters and electric bikes.",
-      logo: "/images/partners/elb.avif",
+      logo: "/images/partners/ecolife.png",
+      width: 120,
+      height: 80,
       url: "https://ecolifebuilder.com",
     },
     {
       name: "brightvester",
       description:
         "Empowering Financial Literacy, Learning Made Fun and Easy.",
-      logo: "/images/partners/brightvester.png",
+      logo: "/images/partners/brightv.png",
+      width: 180,
+      height: 80,
       url: "https://www.brightvester.com",
     },
     {
@@ -52,13 +62,17 @@ export default function PartnersPage() {
       description:
         "Transforming Neighborhoods, Empowering Lives",
       logo: "/images/partners/goe.png",
+      width: 80,
+      height: 80,
       url: "https://www.goehelps.com",
     },
     {
       name: "Tech Excel Innovations",
       description:
         "Helping businesses thrive by delivering reliable, scalable, and high-performing digital solutions that drive impact and growth.",
-      logo: "/images/partners/techex.jpg",
+      logo: "/images/partners/techexcel.png",
+      width: 180,
+      height: 80,
       url: "https://techex.com.ng",
     },
     {
@@ -66,6 +80,8 @@ export default function PartnersPage() {
       description:
         "Empowering businesses to succeed online with smart and creative digital marketing solutions.",
       logo: "/images/partners/Elixirmark.png",
+      width: 150,
+      height: 150,
       url: "https://elixirmark.com",
     },
   ]
@@ -124,13 +140,13 @@ export default function PartnersPage() {
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <CardHeader>
-                    <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
+                    <div className="mx-auto mb-4 flex items-center justify-center">
                       <Image
                         src={partner.logo}
                         alt={`${partner.name} Logo`}
-                        width={80}
-                        height={80}
-                        className="object-contain"
+                        width={partner.width}
+                        height={partner.height}
+                        className="object-contain mx-auto"
                       />
                     </div>
                     <CardTitle className="text-xl font-bold text-gray-900">

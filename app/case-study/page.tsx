@@ -94,7 +94,8 @@ export default function CaseStudyPage() {
                   <Image
                     src={getImage(featured)}
                     alt={featured.title.rendered}
-                    fill
+                    width={600}
+                    height={400}
                     className="object-cover"
                   />
                 </div>
