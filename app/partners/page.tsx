@@ -40,24 +40,6 @@ export default function PartnersPage() {
       url: "https://globalcyberadvisory.com/intro-to-cybersecurity-sustainabiity",
     },
     {
-      name: "Ecolifebuilder",
-      description:
-        "Transforming urban transportation with our premium selection of electric scooters and electric bikes.",
-      logo: "/images/partners/ecolife.png",
-      width: 120,
-      height: 80,
-      url: "https://ecolifebuilder.com",
-    },
-    {
-      name: "brightvester",
-      description:
-        "Empowering Financial Literacy, Learning Made Fun and Easy.",
-      logo: "/images/partners/brightv.png",
-      width: 180,
-      height: 80,
-      url: "https://www.brightvester.com",
-    },
-    {
       name: "Garden of Eden",
       description:
         "Transforming Neighborhoods, Empowering Lives",
@@ -74,15 +56,6 @@ export default function PartnersPage() {
       width: 180,
       height: 80,
       url: "https://techex.com.ng",
-    },
-    {
-      name: "Elixir Mark",
-      description:
-        "Empowering businesses to succeed online with smart and creative digital marketing solutions.",
-      logo: "/images/partners/Elixirmark.png",
-      width: 150,
-      height: 150,
-      url: "https://elixirmark.com",
     },
   ]
 
