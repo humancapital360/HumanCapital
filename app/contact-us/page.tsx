@@ -25,8 +25,8 @@ export default function ContactUsPage() {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "200 Washington Avenue PMB 1036, Floor 5",
-      description: "Towson, Md 21204, United States",
+      details: "200 Washington Avenue, PMB 1036, Floor 5",
+      description: "Towson, MD 21204, United States",
     },
     // Business Hours entry removed
   ]
@@ -34,7 +34,7 @@ export default function ContactUsPage() {
   const offices = [
     {
       city: "Towson, MD",
-      address: "200 Washington Avenue PMB 1036, Floor 5, Towson, Md 21204, United States",
+      address: "200 Washington Avenue, PMB 1036, Floor 5, Towson, MD 21204, United States",
       phone: "410-833-8313",
       fax: "667-218-3814",
       email: "Info@humancapital360.com",

@@ -59,7 +59,7 @@ export default function Component() {
 
   const executiveTeam = [
     {
-      name: "PAMELA WISE-MARTINEZ",
+      name: "Pamela Wise-Martinez",
       title: "Chief Executive Officer",
       description:
         "Company Executive, Human Capital 360° enterprise transformation, architecture mandates, and Owner-360° business opportunity excellence.",
@@ -75,7 +75,7 @@ export default function Component() {
       youtubeVideo: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-      name: "CLARENCE DICKERSON",
+      name: "Clarence Dickerson",
       title: "President",
       description:
         "Experienced in managing and leading several multimodal projects and programs for all surface transportation modes, including highways, streets, bridges, tunnels, transit, as well as bicycle and pedestrian pathways.",
@@ -91,7 +91,7 @@ export default function Component() {
       youtubeVideo: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-      name: "DANTA TERRY VAUGHN",
+      name: "Danta Terry Vaughn",
       title: "Chief Operation Officer",
       description:
         "Company Executive, Human Capital 360°, Neighborhood Community Conversion (NCC) programs, business development, solutions, and sustainability.",
@@ -123,7 +123,7 @@ export default function Component() {
       youtubeVideo: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-      name: "SHANA NUSSBAUM",
+      name: "Shana Nussbaum",
       title: "Vice President/Business Services",
       description:
         "Company Executive, Head of Human Capital 360°,  company (and clients) business services, and consultancy for business acceleration.",
@@ -139,7 +139,7 @@ export default function Component() {
       youtubeVideo: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-      name: "VEDA WOODS",
+      name: "Veda Woods",
       title: "Senior Vice President/Chief Information Security Officer",
       description:
         "Company Executive oversees the Human Capital 360° cybersecurity and advisory for our company and contractors.",
@@ -870,7 +870,7 @@ export default function Component() {
                     <div>
                       <p className="font-semibold text-gray-900 text-sm xs:text-base">Visit Us</p>
                       <p className="text-gray-600 text-xs xs:text-sm">
-                        200 Washington Avenue PMB 1036, Floor 5, Towson, Md 21204
+                        200 Washington Avenue, PMB 1036, Floor 5, Towson, MD 21204
                       </p>
                     </div>
                   </div>

@@ -77,9 +77,9 @@ export function Footer() {
               <p>Tel. 410-833-8313</p>
               <p>Fax. 667-218-3814</p>
               <p>Human Capital 360</p>
-              <p>200 Washington Avenue PMB 1036</p>
+              <p>200 Washington Avenue, PMB 1036</p>
               <p>Floor 5</p>
-              <p>Towson, Md 21204</p>
+              <p>Towson, MD 21204</p>
               <p>United States</p>
             </div>
           </div>
