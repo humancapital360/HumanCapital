@@ -40,22 +40,22 @@ export default function PartnersPage() {
       url: "https://globalcyberadvisory.com/intro-to-cybersecurity-sustainabiity",
     },
     {
-      name: "Garden of Eden",
+      name: "Quick Trip Relocation",
       description:
-        "Transforming Neighborhoods, Empowering Lives",
-      logo: "/images/partners/goe.png",
+        "Moving and junk removal should be efficient, stress-free, and handled by professionals who care",
+      logo: "/images/partners/quicktrip.webp",
       width: 80,
       height: 80,
-      url: "https://www.goehelps.com",
+      url: "https://quicktriprelocation.net",
     },
     {
-      name: "Tech Excel Innovations",
+      name: "CAFBLC",
       description:
-        "Helping businesses thrive by delivering reliable, scalable, and high-performing digital solutions that drive impact and growth.",
-      logo: "/images/partners/techexcel.png",
-      width: 180,
+        "Promoting transformational leadership, economic development and programs to advance the welfare of African and Caribbean Indigenous people within the United States and around the globe.",
+      logo: "/images/partners/cafblc.avif",
+      width: 80,
       height: 80,
-      url: "https://techex.com.ng",
+      url: "https://www.cafblc.com",
     },
   ]
 

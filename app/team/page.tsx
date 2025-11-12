@@ -54,7 +54,7 @@ export default function TeamPage() {
       youtubeVideo: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-      name: "Danta Terry Vaughn",
+      name: "Terry Vaughn",
       title: "Chief Operation Officer",
       description:
         "Company Executive, Human Capital 360, Neighborhood Community Conversion (NCC) programs, business development, solutions, and sustainability.",
@@ -197,22 +197,7 @@ export default function TeamPage() {
       },
       youtubeVideo: "https://www.youtube.com",
     },
-    {
-      name: "Charles Onuoha",
-      title: "Head, Digital Strategy",
-      description:
-        "Head of Digital Strategy, technology leader, Human Capital 360, driving innovation, digital transformation, and online growth strategies.",
-      image: "/images/team/Charles.png",
-      badge: "DS",
-      fullBio:
-        "Charles is a seasoned Webmaster, Web Developer, and Low-Code Mobile App Developer with over 8 years of experience creating innovative digital solutions that help businesses and individuals thrive.<br /><br />As the Founder of Tech Excel Innovations Ltd and DaLP.ng, I have collaborated with a wide range of clients to transform their digital presence, enhance operational efficiency, and drive sustainable growth.<br /><br />In 2025, I also took on the role of Head of Digital Strategy at Human Capital 360°, where I oversee the company’s digital platforms, websites, and apps, while guiding the broader digital direction of the organization. In this role, I am particularly passionate about helping returning citizens rebrand and rebuild their identities, recognizing that no group needs a fresh start and fair opportunity more than they do. Through initiatives like Owner-360, we are creating tools that provide these individuals with a new digital footprint, empowering them to become entrepreneurs and productive members of society.<br /><br />My expertise spans:<br /><br />Website Development & Management<br /><br />Mobile App Development (Low-Code & Custom)<br /><br />Software Solutions<br /><br />Web Hosting, Maintenance & IT Support<br /><br />Digital Strategy & Transformation<br /><br />At Tech Excel Innovations, I lead teams in delivering end-to-end technology services—from design and deployment to maintenance and 24/7 uptime support. Every solution is crafted with scalability, user engagement, and seamless integration in mind, ensuring businesses remain future-ready in a rapidly evolving digital landscape.<br /><br />What drives me is the passion for helping people and businesses achieve their goals through technology. I believe in building solutions that not only solve today’s challenges but also anticipate tomorrow’s opportunities.<br /><br />Whether it’s developing a robust web infrastructure, designing a high-performing mobile app, or shaping a digital strategy that aligns with business objectives, my focus is always on delivering impactful results that empower growth and innovation.<br />",
-      socialMedia: {
-        linkedin: "https://linkedin.com/in/charles-harrison",
-        facebook: "https://facebook.com/iamcharlesonuoha",
-        instagram: "https://instagram.com/charleswebmaster",
-      },
-      youtubeVideo: "https://www.youtube.com",
-    },
+    
   ]
 
   return (

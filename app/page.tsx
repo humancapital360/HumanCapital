@@ -91,7 +91,7 @@ export default function Component() {
       youtubeVideo: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-      name: "Danta Terry Vaughn",
+      name: "Terry Vaughn",
       title: "Chief Operation Officer",
       description:
         "Company Executive, Human Capital 360°, Neighborhood Community Conversion (NCC) programs, business development, solutions, and sustainability.",
