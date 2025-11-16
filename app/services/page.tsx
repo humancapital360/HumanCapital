@@ -28,7 +28,7 @@ const serviceDetails = [
       title: "Neighborhood Community Conversion (NCC)",
       content:
         "Our NCC strategy is designed to tackle the City's trash, waste and sanitation crisis through a 90-day micro-planning and thereby circumscribing our wrap-around services against the localized and endemic health and hygiene infirmities. This incremental and ecological approach will proportionally allow our neighborhood custodians to foster a stronger sense of community participation, optimize initial resources for prompt neighborhood notoriety and recognition, and lead to more efficient and sustainable urban development.",
-      image: "/images/programs/HC360_NCC.jpg?height=400&width=800&text=NCC+Strategy",
+      image: "/images/programs/NCC.jpg?height=400&width=800&text=NCC+Strategy",
     },
     {
       title: "EcoLife Neighborhood Response System (ENRS)",

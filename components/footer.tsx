@@ -141,9 +141,9 @@ export function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>
             &copy; {new Date().getFullYear()} Human Capital 360°. All rights reserved.{" "}
-          {/*}  <Link href="https://techex.com.ng" target="_blank">
-              Developed By <span className="text-white hover:text-white/70">Tech Excel Innovations</span>
-            </Link> */}
+            <Link href="https://owner-360.com" target="_blank">
+              Powered By <span className="text-white hover:text-white/70">Owner360</span>
+            </Link>
           </p>
         </div>
       </div>

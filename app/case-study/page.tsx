@@ -139,7 +139,7 @@ export default function CaseStudyPage() {
           <div className="container mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {caseStudies.slice(1).map((study) => (
               <Card key={study.id} className="shadow hover:shadow-xl">
-                <div className="relative h-48">
+                <div className="relative h-[450px] w-full">
                   <Image
                     src={getImage(study)}
                     alt={study.title.rendered}

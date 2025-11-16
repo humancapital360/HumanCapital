@@ -1,0 +1,75 @@
+{
+      name: "Elway Williams",
+      title: "Chief Partnership Officer",
+      description:
+        "Elway Williams is proven as a visionary leader, entrepreneur, and Community re- developer with over two decades of experience in business ownership and Civic engagement.",
+      image: "/images/team/Elway.png",
+      badge: "CPO",
+      fullBio:
+        "Elway Williams is proven as a visionary leader, entrepreneur, and Community re- developer with over two decades of experience in business ownership and Civic engagement. He is the founder of Williams & Hunter Services, Inc. (est. 2005) a growing building operations and services provider and the driving force behind The Garden of Eden Community Developers, a Baltimore-based initiative transforming lives through economic sustainability, Public safety, and Faith-based partnerships.<br /><br />Elway has dedicated his work to training and empowering Returning Citizens and Underserved Residents, providing access to Nationally accredited trades programs and comprehensive wraparound services that prepare individuals for lasting success. His mission-driven approach has already impacted countless families through food giveaways, workforce training, and other various Community programs that foster hope and opportunity. Known for bridging business with Community impact, Elway is a trusted partner among Civic leaders, Clergy, and many organizations committed to building a stronger Baltimore.",
+      socialMedia: {
+        linkedin: "https://linkedin.com",
+        facebook: "https://facebook.com",
+        instagram: "https://instagram.com",
+      },
+      youtubeVideo: "https://www.youtube.com",
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      name: "Mark Hunter",
+      title: "Executive Director, Neighborhood Cleanup",
+      description:
+        "Mark Hunter is a strategic leader and business professional with a proven track record in organizational development, partnership building, and Community engagement.",
+      image: "/images/team/MarkH.jpg",
+      badge: "EDNC",
+      fullBio:
+        "Mark Hunter is a strategic leader and business professional with a proven track record in organizational development, partnership building, and Community engagement. As a trusted collaborator of Williams & Hunter Services, Inc. and The Garden of Eden Community Developers, he plays a central role in advancing workforce development initiatives and sustainable business growth.<br /><br />Mark is deeply committed to creating opportunities for those often left behind. He has been instrumental in expanding access to Nationally accredited training for Returning Citizens and Underserved Community members, ensuring they receive not only technical skills but also the wraparound support services needed to thrive and grow. By aligning vision with execution, Mark helps bridge the gap between economic development and social impact, strengthening Communities through both business innovation and people-centered solutions.",
+      socialMedia: {
+        linkedin: "https://linkedin.com",
+        facebook: "https://facebook.com",
+        instagram: "https://instagram.com",
+      },
+      youtubeVideo: "https://www.youtube.com",
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      name: "Gary Thomas",
+      title: "Regional Director of Neighborhood Services",
+      description:
+        "Regional Director of Neighborhood Services, Company executive, Human Capital 360, head of our independent contractors, and neighborhood environmental services.",
+      image: "/images/team/Gary.png",
+      badge: "GM",
+      fullBio:
+        "Gary Thomas is a dedicated entrepreneur and community advocate with a rich background in athletics and resilience. <br /><br />In high school, Gary excelled in multiple sports, including football, basketball, and baseball, earning scholarships to further his athletic career. <br /><br />After facing life’s challenges and serving time in prison, he was able to obtain parole in under six years due to his exemplary behavior. <br /><br />Upon his release, Gary enrolled at Bowie State University, where he studies psychology. <br /><br />He is also the owner of Quick Trip Relocation Services, a moving and junk removal company serving the entire DMV. <br /><br />His goal is not only to provide excellent moving services, but also to help beautify the community by addressing rampant trash and waste issues. <br /><br />He is passionate about giving back to the community and makes it a point to hire ex-offenders and individuals with less than clear backgrounds, recognizing the limited opportunities they face.",
+      socialMedia: {
+        linkedin: "https://linkedin.com/in/vedawoods",
+        facebook: "https://facebook.com/vedawoods",
+        instagram: "https://instagram.com/vedawoods",
+      },
+      youtubeVideo: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    },

@@ -298,7 +298,7 @@ export default function Component() {
                     style={{ animationDelay: "0.4s" }}
                   >
                     "Our mission is to help 1 million ex-offenders conquer recidivism and rebuild their communities"
-                    <footer className="text-xs sm:text-sm text-gray-600 mt-1 sm:mt-2">— COO Danta Terry Vaughn</footer>
+                    <footer className="text-xs sm:text-sm text-gray-600 mt-1 sm:mt-2">— COO Terry Vaughn</footer>
                   </blockquote>
                 </div>
 
