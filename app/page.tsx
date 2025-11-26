@@ -168,7 +168,7 @@ export default function Component() {
     {
       title: "Reentry Workforce",
       description:
-        "Our human resources heavily and purposely rely on local jails, prisons, and halfway houses for our reentry pipeline.<br /><br /> Congruently we collaborate with our federal and state institutions, and their reentry staff and coordinators, and thereby we institutionalize our NCC workshops, and we are the only private corporation that offer guaranteed job opportunities to the inmates prior to their release.",
+        "Our operations workforce partners are intentionally built through a reentry pipeline from local jails, prisons, and halfway houses.<br /><br /> We work directly with federal and state corrections agencies to offer incarcerated individuals a guaranteed job opportunity, focused on trash collection, sanitation, and neighborhood upkeep, before their release.",
       icon: BriefcaseBusiness,
       gradient: "from-secondary to-secondary/70",
       delay: "0.2s",
@@ -462,10 +462,10 @@ export default function Component() {
 
                 <div className="text-xs xs:text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed space-y-3 sm:space-y-4">
                   <p>
-                    Human Capital 360° is consulting and training powerhouse of eclectic business leaders and innovators dedicated to the empowerment and transformation of marginalized communities nationwide.
+                    We are a Human Resources, and Business management firm for grassroot nonprofits, and community-serving small businesses. We provide the advisory, compliance, leadership, systems, technology, and financial stewardship that these honorable, community-based organizations need but rarely have in-house.
                   </p>
                   <p>
-                    We bring the resources and expertise of professionals who have provided the blueprint and infrastructure for billion-dollar projects, and Fortune 500 companies.
+                    At the same time, we give city, state, and federal agencies the oversight, governance, and financial assurance they require to maintain public confidence and trust in how funds are used at the neighborhood level.
                   </p>
                 </div><br />
 
@@ -493,7 +493,7 @@ export default function Component() {
                 </h2>
 
                 <p className="text-xs xs:text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed">
-                  Our proprietary Neighborhood Community Conversion (NCC) programs, and Neighborhood custodians and trustees are guided by empathy and the unrealized human capital and value of each member of the community and our returning citizens.
+                  Our Neighborhood Community Conversion (NCC) programs and Neighborhood Custodians and Trustees start from a clear premise: communities and returning citizens carry serious human capital that is too often ignored or wasted.<br /><br /> <b>EcoVita360</b> equips community cleaning teams with eco-friendly supplies, while <b>Brightvestor360</b> converts raw potential into practical financial and technical skills.<br /><br /> Separately, <b>Owner360</b> serves a wider range of business owners with an all-in-one command center for marketing, CRM, analytics, websites, and client management. Some may connect through our ecosystem, but each business stands on its own.
                 </p>
               </div>
 

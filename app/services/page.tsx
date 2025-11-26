@@ -54,6 +54,12 @@ const serviceDetails = [
         "Our comprehensive community services include: Sidewalk & Curb Sanitation - Professional cleaning and maintenance of public walkways and street edges. Junk Collection and Disposal - Efficient removal and proper disposal of unwanted items and debris. Trash Clean-up - Regular and emergency waste removal services for cleaner neighborhoods. Pest Control - Safe and effective elimination of harmful pests that threaten community health. Insecticide Landscaping - Integrated pest management combined with beautiful landscape maintenance.",
       image: "/images/programs/HC360_Community-Services.jpg?height=400&width=800&text=Community+Services",
     },
+    {
+      title: "Veteran to Civilian Reentry",
+      content:
+        "Our veteran workforce pipeline is intentionally built through partnership with Veterans of Foreign Wars (VFW), military transition programs, the VA, Guard and Reserve units, and veteran service organizations. We work directly with these partners to identify separating service members and offer them a clear, guaranteed path into civilian roles as NCC neighborhood ambassadors, paid, structured work that uses their discipline and experience to provide a trusted, observe-and-report presence in the community from day one after service.",
+      image: "/images/programs/civilian-reentry.JPEG?height=400&width=800&text=Community+Services",
+    },
   ]
 
   return (
