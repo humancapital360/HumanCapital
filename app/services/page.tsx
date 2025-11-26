@@ -58,7 +58,7 @@ const serviceDetails = [
       title: "Veteran to Civilian Reentry",
       content:
         "Our veteran workforce pipeline is intentionally built through partnership with Veterans of Foreign Wars (VFW), military transition programs, the VA, Guard and Reserve units, and veteran service organizations. We work directly with these partners to identify separating service members and offer them a clear, guaranteed path into civilian roles as NCC neighborhood ambassadors, paid, structured work that uses their discipline and experience to provide a trusted, observe-and-report presence in the community from day one after service.",
-      image: "/images/programs/civilian-reentry.JPEG?height=400&width=800&text=Community+Services",
+      image: "/images/programs/civilian-reentry.png?height=400&width=800&text=Community+Services",
     },
   ]
 
