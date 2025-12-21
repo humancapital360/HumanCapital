@@ -28,18 +28,18 @@ export async function POST(req: Request) {
 
     // Configure SMTP (same as PHPMailer but with Nodemailer)
     const transporter = nodemailer.createTransport({
-      host: "humancapital360.com", // your mail host
-      port: 587,                   // TLS
+      host: process.env.SMTP_HOST, // your mail host
+      port: Number(process.env.SMTP_PORT),                   // TLS
       secure: false,               // true for 465, false for 587
       auth: {
-        user: "contact@humancapital360.com", // SMTP user
-        pass: "@HC360.com",                  // SMTP password
+        user: process.env.SMTP_USER_CONTACT, // SMTP user
+        pass: process.env.SMTP_PASS_CONTACT,                  // SMTP password
       },
     });
 
     // Send the mail
     await transporter.sendMail({
-      from: '"Human Capital 360" <contact@humancapital360.com>',
+      from: `"Human Capital 360" <${process.env.SMTP_USER_CONTACT}>`,
       to: recipientEmail,
       replyTo: email || undefined,
       subject: `[${formType}] ${subject}`,

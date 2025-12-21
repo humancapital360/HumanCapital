@@ -38,15 +38,15 @@ $mail = new PHPMailer(true);
 try {
     // SMTP Configuration
     $mail->isSMTP();
-    $mail->Host       = 'humancapital360.com';   // e.g. smtp.gmail.com
+    $mail->Host       = getenv('SMTP_HOST');   // e.g. smtp.gmail.com
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'contact@humancapital360.com';      // SMTP username
-    $mail->Password   = '@HC360.com';        // SMTP password
+    $mail->Username   = getenv('SMTP_USER_CONTACT');      // SMTP username
+    $mail->Password   = getenv('SMTP_PASS_CONTACT');        // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // or PHPMailer::ENCRYPTION_SMTPS
-    $mail->Port       = 587;                   // 587 for TLS, 465 for SSL
+    $mail->Port       = getenv('SMTP_PORT');                   // 587 for TLS, 465 for SSL
 
     // Sender and Recipient
-    $mail->setFrom('contact@humancapital360.com', 'Human Capital 360');
+    $mail->setFrom(getenv('SMTP_USER_CONTACT'), 'Human Capital 360');
     $mail->addAddress($recipient);
 
     // Reply to user

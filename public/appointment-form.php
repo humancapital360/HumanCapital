@@ -26,15 +26,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // SMTP server config (update with your domain/email creds)
         $mail->isSMTP();
-        $mail->Host       = 'humancapital360.com';
+        $mail->Host       = getenv('SMTP_HOST');
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'appointments@humancapital360.com'; 
-        $mail->Password   = '@HC360.com'; // replace with real password
+        $mail->Username   = getenv('SMTP_USER_APPOINTMENTS'); 
+        $mail->Password   = getenv('SMTP_PASS_APPOINTMENTS'); // replace with real password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        $mail->Port       = 587;   // 587 for TLS, 465 for SSL
+        $mail->Port       = getenv('SMTP_PORT');   // 587 for TLS, 465 for SSL
 
         // Sender & recipient
-        $mail->setFrom('appointments@humancapital360.com', 'Human Capital 360 Appointments');
+        $mail->setFrom(getenv('SMTP_USER_APPOINTMENTS'), 'Human Capital 360 Appointments');
         $mail->addAddress('appointments@humancapital360.com'); // change to your recipient email
 
         // Content

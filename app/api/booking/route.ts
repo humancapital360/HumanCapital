@@ -37,19 +37,19 @@ export async function POST(req: Request) {
       <p><strong>Notes:</strong><br>${message}</p>
     `
 
-    // SMTP Config (hardcoded like your PHP)
+    // SMTP Config (using environment variables)
     const transporter = nodemailer.createTransport({
-      host: "humancapital360.com",
-      port: 587,
+      host: process.env.SMTP_HOST,
+      port: Number(process.env.SMTP_PORT),
       secure: false,
       auth: {
-        user: "appointments@humancapital360.com",
-        pass: "@HC360.com",
+        user: process.env.SMTP_USER_APPOINTMENTS,
+        pass: process.env.SMTP_PASS_APPOINTMENTS,
       },
     })
 
     await transporter.sendMail({
-      from: `"Human Capital 360" <appointments@humancapital360.com>`,
+      from: `"Human Capital 360" <${process.env.SMTP_USER_APPOINTMENTS}>`,
       to: recipientEmail,
       replyTo: email ? `${firstName} ${lastName} <${email}>` : undefined,
       subject: `[${formType}] Appointment Request`,

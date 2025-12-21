@@ -43,14 +43,14 @@ $mail = new PHPMailer(true);
 
 try {
     $mail->isSMTP();
-    $mail->Host       = 'humancapital360.com';
+    $mail->Host       = getenv('SMTP_HOST');
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'appointments@humancapital360.com';
-    $mail->Password   = '@HC360.com';
+    $mail->Username   = getenv('SMTP_USER_APPOINTMENTS');
+    $mail->Password   = getenv('SMTP_PASS_APPOINTMENTS');
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port       = 587;
+    $mail->Port       = getenv('SMTP_PORT');
 
-    $mail->setFrom('appointments@humancapital360.com', 'Human Capital 360');
+    $mail->setFrom(getenv('SMTP_USER_APPOINTMENTS'), 'Human Capital 360');
     $mail->addAddress($recipient);
 
     if (!empty($email)) {
