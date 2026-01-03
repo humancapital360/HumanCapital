@@ -118,22 +118,6 @@ export default function TeamPage() {
       youtubeVideo: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
     {
-      name: "Shana Nussbaum",
-      title: "Vice President/Business Services",
-      description:
-        "Company Executive, Head of Human Capital 360, company (and clients) business services, and consultancy for business acceleration.",
-      image: "/images/team/Shana2.png",
-      badge: "VP",
-      fullBio:
-        "Shana Nussbaum, brings strategic and technical experience as a strategic planner, program manager, and Business Architect with 22+ years of defense, government, intelligence, manufacturing, and information technology experience. Shana quickly absorbs new technical subject matter information and has a passion for learning about people and their businesses. She excels at guiding teams to apply qualitative and quantitative business analysis to improve effectiveness and efficiency.<br /><br />She naturally builds situational awareness across disparate divisions by building trust and fostering communication. As the Principal Lead Agile Engineer at Whirlpool Corporation, she led a 100+ member team of architects and business relationship managers to create and implement a tailored Enterprise Architecture strategy.<br /><br />Shana holds a Master of Science in Education, completed most of her Masters in Business Administration for Finance, and a Bachelor of Science in Aerospace Engineering. She is also a Lean Six Sigma Black Belt and SAFe Practitioner. In her spare time, Shana is usually found in her greenhouse or garden, and volunteer extensively with Scouts USA and other youth organizations.",
-      socialMedia: {
-        linkedin: "https://linkedin.com/in/sharonnussbaum",
-        facebook: "https://facebook.com/sharonnussbaum",
-        instagram: "https://instagram.com/sharonnussbaum",
-      },
-      youtubeVideo: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    },
-    {
       name: "Dr. Agorom Dike",
       title: "Director of Events",
       description:
