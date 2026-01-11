@@ -119,11 +119,11 @@ export default function TeamPage() {
     },
     {
       name: "Dr. Agorom Dike",
-      title: "Director of Events",
+      title: "National Director of Reentry",
       description:
         "Expertise in leadership development, public speaking, and interview preparation, he brings a wealth of global experience in organizing impactful events that inspire growth and connection.",
       image: "/images/team/Dr-Dike1.jpg",
-      badge: "DoE",
+      badge: "NDR",
       fullBio:
         "Dr. Agorom Dike serves as the Director of Events at Human Capital 360, where he oversees the planning and execution of transformative programs and gatherings designed to empower individuals and organizations. He is also the driving force behind the African and Caribbean International Leadership Conference, a platform that amplifies voices, fosters dialogue, and builds bridges across communities.<br /><br />With a professional focus on leadership development, public speaking, and interview preparation, Dr. Dike combines his academic background with practical expertise to create impactful experiences. His events are not just gatherings but strategic platforms for growth, networking, and rebranding, helping professionals and organizations position themselves for long-term success.<br /><br />At Human Capital 360, Dr. Dike leverages his passion for people and leadership to curate programs that align with the company’s mission of equipping individuals with the tools and strategies to thrive in today’s competitive landscape. Through his work, he demonstrates how events can serve as catalysts for both personal transformation and organizational excellence.",
       socialMedia: {
